@@ -1,0 +1,53 @@
+html, body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.number{
+    margin: 5px;
+}
+
+.button {
+    margin: 10px 5px; /* Adds space between buttons */
+    padding: 8px 12px; /* Makes the buttons more comfortable to click */
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    background-color: blue;
+}
+
+.result {
+    margin-top: 20px;   
+    font-weight: bold; 
+    font-size: 1.5em;
+    color: #333;
+
+}
+
+.number{
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+input[type="number"] {
+    padding: 10px; /* Adds space inside the input box for better visibility */
+    margin-bottom: 10px; /* Adds space between the inputs and buttons */
+    border: 2px solid #ccc; /* Adds a light grey border */
+    border-radius: 5px; /* Makes the corners rounded */
+    font-size: 1em; /* Makes the text size consistent with other elements */
+    width: 200px; /* Sets a width for the input fields */
+}
+
+input[type="number"]:focus {
+    border-color: #007bff; /* Changes border color to blue when focused */
+    outline: none; /* Removes the default outline */
+}
