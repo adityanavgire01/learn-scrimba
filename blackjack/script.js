@@ -1,5 +1,5 @@
-let firstCard = Math.random()
-let secondCard = Math.random()
+let firstCard = Math.floor(Math.random() * 10) + 2;
+let secondCard = Math.floor(Math.random() * 10) + 2;
 let cards = [firstCard, secondCard]
 let sum = firstCard + secondCard
 let hasBlackJack = false
@@ -36,7 +36,7 @@ function renderGame() {
 
 
 function newCard() {
-    let card = 6
+    let card = Math.floor(Math.random() * 10) + 2;
     sum += card
     // Push the card to the cards array
     cards.push(card);
