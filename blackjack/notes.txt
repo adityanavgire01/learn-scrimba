@@ -1,0 +1,23 @@
+
+
+- html 
+
+
+
+-------------
+
+CSS
+- font : family, weight, style, 
+- background: image, (itself), 
+- color : (itself) 
+
+
+
+
+----------
+
+JS
+// js follows the concept of "Hoisting" -> which allows us to call the function or refer to a variable before it is defined -> we can do so because in js the variables and function are moved to the top of their containing scope/
+
+//date - 12 dec 2024
+// functions defined inside an object are called methods - eg console.log(), document.getElementById() -> are examples of objects and thier methods
